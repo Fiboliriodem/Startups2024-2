@@ -25,15 +25,18 @@ h2{
 
 }
 .footer{
-  font-family: Tahoma;
   position: fixed;
   left: 0;
   bottom: 0;
   padding: 20px;
   width: 100%;
   background-color: #1A1D1A;
+  text-align: justify;
+}
+.footer a{
+  font-family: Tahoma;
   color: #F0E6EF;
-  text-align: center;
+  padding: 14px 16px;
 }
 .navbar {
   background-color: #1A1D1A;
