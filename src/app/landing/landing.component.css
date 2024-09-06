@@ -1,0 +1,14 @@
+.bemvindo{
+
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.body{
+  background-color: black;
+}
+.h1{
+  background-color: #FF00E5;
+}
