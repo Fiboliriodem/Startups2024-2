@@ -10,7 +10,7 @@
 .texto{
   text-align: center;
   display:inline;
-  background: linear-gradient(to right,#5E0055, #FF00E5, #F0E6EF, #FF00E5, #5E0055);
+  background: linear-gradient(to top,#F0E6EF,#FF00E5,#5E0055);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
