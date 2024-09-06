@@ -24,3 +24,14 @@ h2{
   font-family: Tahoma;
 
 }
+.footer{
+  font-family: Tahoma;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #1A1D1A;
+  color: #F0E6EF;
+  text-align: center;
+}
