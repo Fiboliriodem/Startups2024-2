@@ -10,5 +10,5 @@ import { LandingComponent } from './landing/landing.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Gatherer';
+  title = 'Nome do site';
 }

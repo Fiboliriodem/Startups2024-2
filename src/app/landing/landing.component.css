@@ -2,13 +2,25 @@
 
   height: 50vh;
   display: flex;
+
   justify-content: center;
   align-items: center;
 
 }
-.body{
-  background-color: black;
+.texto{
+  text-align: center;
+  display:inline;
+  background: linear-gradient(to right,#5E0055, #FF00E5, #F0E6EF, #FF00E5, #5E0055);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-.h1{
-  background-color: #FF00E5;
+h1{
+
+  font-family: Tahoma;
+
+}
+h2{
+
+  font-family: Tahoma;
+
 }
