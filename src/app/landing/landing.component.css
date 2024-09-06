@@ -35,3 +35,40 @@ h2{
   color: #F0E6EF;
   text-align: center;
 }
+.navbar {
+  background-color: #1A1D1A;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.navbar a {
+  font-family: Tahoma;
+  float: left;
+  font-weight: bold;
+  color: #F0E6EF;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #FF00E5;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #FF00E5;
+  color: #F0E6EF;
+}
+
+.navbar a.split {
+  float: right;
+  background-color: #FF00E5;
+  color: #F0E6EF;
+}
