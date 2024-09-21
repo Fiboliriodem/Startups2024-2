@@ -41,10 +41,7 @@ h2{
 .footer a.split{
   float: right;
 }
-#QR {
- width: 50px;
 
-}
 .navbar {
   background-color: #1A1D1A;
   overflow: hidden;
@@ -96,3 +93,8 @@ margin-bottom: 10vh;
 filter: drop-shadow(-5px 5px 10px #5E0055);
 }
 
+.QrCode{
+ float: right;
+
+ object-fit: contain;
+}
