@@ -38,6 +38,13 @@ h2{
   color: #F0E6EF;
   padding: 14px 16px;
 }
+.footer a.split{
+  float: right;
+}
+#QR {
+ width: 50px;
+
+}
 .navbar {
   background-color: #1A1D1A;
   overflow: hidden;
@@ -75,3 +82,17 @@ h2{
   background-color: #FF00E5;
   color: #F0E6EF;
 }
+.svg-icon {
+  display: block;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  width: 400px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Ajuste o tamanho conforme necessário */
+  margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10vh;
+filter: drop-shadow(-5px 5px 10px #5E0055);
+}
+
