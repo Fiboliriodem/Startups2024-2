@@ -32,6 +32,7 @@ h2{
   width: 100%;
   background-color: #1A1D1A;
   text-align: justify;
+
 }
 .footer a{
   font-family: Tahoma;
@@ -95,6 +96,7 @@ filter: drop-shadow(-5px 5px 10px #5E0055);
 
 .QrCode{
  float: right;
+width: 4vw;
+margin-right: 2vw;
 
- object-fit: contain;
 }
