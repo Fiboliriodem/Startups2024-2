@@ -1,6 +1,6 @@
 .bemvindo{
 
-  height: 50vh;
+  height: 30vh;
   display: flex;
 
   justify-content: center;
@@ -9,6 +9,7 @@
 }
 .ConteudoPrincipal{
 padding-bottom: 2em;
+padding-top: 5em;
 }
 .texto{
   text-align: center;
@@ -54,6 +55,7 @@ h2{
   left: 0;
   right: 0;
   position: fixed;
+  z-index: 1000;
 }
 
 .navbar a {
@@ -89,7 +91,7 @@ h2{
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   opacity: 0.5; /* Ajuste a opacidade conforme necessário */
-  width: 400px; /* Ajuste o tamanho conforme necessário */
+  width: 20vw; /* Ajuste o tamanho conforme necessário */
   height: auto; /* Ajuste o tamanho conforme necessário */
   margin-top: 0;
 margin-left: auto;
@@ -103,4 +105,13 @@ filter: drop-shadow(0 0 0.75rem #8000FF);
 width: 4vw;
 margin-right: 2vw;
 
+}
+
+.favicon{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  margin: auto;
+  filter: drop-shadow(0 0 0.1rem #F0E6EF);
 }
