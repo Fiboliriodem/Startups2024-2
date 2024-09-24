@@ -13,7 +13,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FF00E5; /* Cor da barra de rolagem */
+  background: #8000FF; /* Cor da barra de rolagem */
   border-radius: 6px; /* Bordas arredondadas */
 }
 

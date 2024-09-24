@@ -7,10 +7,13 @@
   align-items: center;
 
 }
+.ConteudoPrincipal{
+padding-bottom: 2em;
+}
 .texto{
   text-align: center;
   display:inline;
-  background: linear-gradient(to top,#F0E6EF,#FF00E5,#5E0055);
+  background: linear-gradient(to top,#F0E6EF,#8000FF,#5E0055);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -28,10 +31,11 @@ h2{
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 1em;
   width: 100%;
   background-color: #1A1D1A;
   text-align: justify;
+
 
 }
 .footer a{
@@ -66,18 +70,18 @@ h2{
 }
 
 .navbar a:hover {
-  background-color: #FF00E5;
+  background-color: #8000FF;
   color: black;
 }
 
 .navbar a.active {
-  background-color: #FF00E5;
+  background-color: #8000FF;
   color: #F0E6EF;
 }
 
 .navbar a.split {
   float: right;
-  background-color: #FF00E5;
+  background-color: #8000FF;
   color: #F0E6EF;
 }
 .svg-icon {
