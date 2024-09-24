@@ -37,17 +37,23 @@ h2{
   background-color: #1A1D1A;
   text-align: justify;
 
-
 }
 .footer a{
+
   font-family: Tahoma;
   color: #F0E6EF;
   padding: 14px 16px;
+
 }
 .footer a.split{
   float: right;
 }
+.footer .QrCode{
+  float: right;
+ width: 4vw;
+ margin-right: 2vw;
 
+ }
 .navbar {
   background-color: #1A1D1A;
   overflow: hidden;
@@ -98,13 +104,6 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 10vh;
 filter: drop-shadow(0 0 0.75rem #8000FF);
-}
-
-.QrCode{
- float: right;
-width: 4vw;
-margin-right: 2vw;
-
 }
 
 .favicon{
