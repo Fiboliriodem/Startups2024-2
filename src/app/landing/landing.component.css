@@ -95,7 +95,7 @@ h2{
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 10vh;
-filter: drop-shadow(-5px 5px 10px #5E0055);
+filter: drop-shadow(0 0 0.75rem #8000FF);
 }
 
 .QrCode{
