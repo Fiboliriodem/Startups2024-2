@@ -64,7 +64,7 @@ h2{
 .footer .QrCode {
   width: 4vw;
   margin-right: 1em;
-  transition: width 4s, height 4s;
+  /*transition: width 4s, height 4s;*/
 }
 
 /* .QrCode:hover{
