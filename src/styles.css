@@ -2,6 +2,10 @@
 body{
   height: 100%;
   background-color: #0f0f0c;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+
 }
 ::-webkit-scrollbar {
   width: 12px; /* Largura da scrollbar */
