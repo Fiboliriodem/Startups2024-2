@@ -7,8 +7,10 @@
   align-items: center;
 
 }
-.ConteudoPrincipal{
-padding-bottom: 2em;
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 padding-top: 5em;
 }
 .texto{
@@ -28,32 +30,36 @@ h2{
   font-family: Tahoma;
 
 }
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1em;
-  width: 100%;
+  width: 100vw;
   background-color: #1A1D1A;
   text-align: justify;
-
+  left: 0;
+  right: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-bottom: 0;
 }
-.footer a{
 
+.footer a {
   font-family: Tahoma;
   color: #F0E6EF;
   padding: 14px 16px;
-
 }
-.footer a.split{
-  float: right;
-}
-.footer .QrCode{
-  float: right;
- width: 4vw;
- margin-right: 2vw;
 
- }
+.footer a.split {
+  margin-left: auto;
+}
+
+.footer .QrCode {
+  width: 4vw;
+  margin-right: 1em;
+}
+
 .navbar {
   background-color: #1A1D1A;
   overflow: hidden;
@@ -103,7 +109,7 @@ h2{
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 10vh;
-filter: drop-shadow(0 0 0.75rem #8000FF);
+filter: drop-shadow(0 0 0.75rem #8000FF); /*esquerda e direita, cima e baixo, blur,*/
 }
 
 .favicon{
