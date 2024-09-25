@@ -12,6 +12,12 @@
   flex-direction: column;
   min-height: 100vh;
 padding-top: 5em;
+animation-name: tcharam;
+animation-duration: 2.5s;
+}
+@keyframes tcharam{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 .texto{
   text-align: center;
@@ -58,7 +64,16 @@ h2{
 .footer .QrCode {
   width: 4vw;
   margin-right: 1em;
+  transition: width 4s, height 4s;
 }
+
+/* .QrCode:hover{
+  position: relative;
+height: auto;
+  width: 10vw;
+}*/
+
+/* codigo para aumentar o qr code(?) */
 
 .navbar {
   background-color: #1A1D1A;
@@ -81,6 +96,7 @@ h2{
   margin-right: 0;
   text-decoration: none;
   font-size: 17px;
+  transition: 0.5s;
 }
 
 .navbar a:hover {
