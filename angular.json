@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Gatherer": {
+    "MyCardCollection": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/gatherer",
+            "outputPath": "dist/MyCardCollection",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Gatherer:build:production"
+              "buildTarget": "MyCardCollection:build:production"
             },
             "development": {
-              "buildTarget": "Gatherer:build:development"
+              "buildTarget": "MyCardCollection:build:development"
             }
           },
           "defaultConfiguration": "development"
