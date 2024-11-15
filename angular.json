@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/MyCardCollection",
-            "baseHref": "https://fiboliriodem.github.io/Startups2024-2/",
+            "baseHref": "https://fiboliriodem.github.io/My-Card-Collection/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
