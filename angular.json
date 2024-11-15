@@ -90,7 +90,15 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "deploy": {
+      "builder": "angular-cli-ghpages:deploy",
+      "options": {
+        "repo": "https://github.com/Fiboliriodem/My-Card-Collection.git",
+        "branch": "gh-pages",
+        "dir": "dist/MyCardCollection/browser"
+      }
+    }
       }
     }
   }
